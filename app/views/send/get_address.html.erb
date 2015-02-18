@@ -1,0 +1,5 @@
+<p>Enter you email address to recieve something</p>
+<%= form_tag send_send_mail_path do %>
+  <p>Address: <%= text_field_tag :address %></p>
+  <%= submit_tag %>
+<% end %>
